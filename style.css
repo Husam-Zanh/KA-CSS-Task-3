@@ -1,0 +1,79 @@
+/* public */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    background-color: blue;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+background-color: gray;
+}
+
+.navbar .list{
+    float: right;
+    background-color: red;
+    margin-top: 15px;
+ }
+
+.list ul {
+    list-style-type: none;
+}
+
+ .list ul li {
+    float:left;
+    text-decoration: none;
+    margin-right: 15px;
+    text-transform: uppercase;
+ }
+
+ .list a {
+    color: white;
+ }
+
+ .portfolio {
+    background-color: green;
+    text-align: center;
+    /* overflow:hidden;  This will do the same effect as the clear class. without the extra div in the html */
+ }
+
+ .portfolio-item {
+    float: left;
+    width:33.33%;
+    padding-right: 10px;
+ }
+
+ .portfolio img {
+    display: block;
+    width: 100%;
+ }
+
+ .portfolio p {
+    text-decoration:dashed;
+    color: aqua;
+ }
